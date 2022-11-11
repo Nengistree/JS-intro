@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="https://cdn.mos.cms.futurecdn.net/9UmWCbyxpKaEGXjwFG7dXo-1200-80.jpg" id="content1" class="active">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/LH_95.jpg/640px-LH_95.jpg" id="content2">
+            <img src="https://cff2.earth.com/uploads/2022/01/15092418/Life-on-Earth-scaled.jpg" id="content3">
+            <img src="https://media.architecturaldigest.com/photos/60426252993888ff3d26b159/3:2/w_1619,h_1079,c_limit/20-1223%20Voyager%20Station.jpg" id="content4">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDRjFGEMoiNaUnckwOUBnB0D_omqgNEa1-qQ&usqp=CAU" id="content5">
+            <img src="https://media.wired.com/photos/59336f87f682204f736995d1/master/pass/STARTS.jpg" id="content6">
+        </div>
+
+        <div class="dot-container">
+            <button onclick = "dot(1)"></button>
+            <button onclick = "dot(2)"></button>
+            <button onclick = "dot(3)"></button>
+            <button onclick = "dot(4)"></button>
+            <button onclick = "dot(5)"></button>
+            <button onclick = "dot(6)"></button>
+         </div>
+
+         <button id="prev" onclick="prev()"> &lt; </button>
+         <button id="next" onclick="next()"> &gt; </button>
+         
+         <script src="life.js"></script>
+
+    </div>
+</body>
+</html>
